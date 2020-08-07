@@ -1,0 +1,65 @@
+
+@media screen and (min-width:280px){
+body {
+    background-color: black;
+}
+}
+
+h1 {
+    margin: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    color: darkblue;
+    padding: 10px 10px 20px;
+    border-radius: 10px;
+    font-size: 40px;
+    border-bottom: dotted yellow;
+}
+ul a {
+    text-decoration: none;
+    font-size: 80px;
+    color: red;
+}
+li {
+    list-style-type: none;
+    padding-bottom: 20px;
+    text-align: center;
+   
+}
+p {
+    left: 0;
+    color: white;
+    font-size: 50px;
+}
+
+/* list */
+.M,
+.E {
+    color: white;
+}
+.E:hover{
+    font-size: 50px;
+    transition: all 0.5 ease-out;
+    transition-duration: 0.8s;
+    letter-spacing: 10px;
+}
+.M:hover{
+    font-size: 50px;
+    transition: all 0.5 ease-out;
+    transition-duration: 0.8s;
+    letter-spacing: 10px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: pink;
+    font-size: 25px;
+    color: blue;
+    margin-top: 110px;
+}
